@@ -548,9 +548,9 @@ ul.sub-menu li:hover a span {
   text-align: justify;
 }
 
-.slider-thumb img {
+/*.slider-thumb img {
   filter: brightness(0.5);
-}
+}*/
 
 @media screen and (min-width: 992px) {
   .slider-thumb {
@@ -1040,7 +1040,7 @@ ul.sub-menu li:hover a span {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(./service-bg.png);
+  background: url(../service-bg.png);
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -1827,7 +1827,7 @@ button.icons {
 <--  Consen About Area Css -->
 ======================================================**/
 .about-area {
-  background: url(./about-bg.png);
+  background: url(../about-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px 0 80px;
