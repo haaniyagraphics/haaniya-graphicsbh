@@ -52,7 +52,7 @@ const Slider = () => {
                                 </a>
                             <div class="contact-number">
                                     <h3><a href="tel:+97317694069">+973 1769 4069</a></h3>
-                                    <h3><a href="tel:+97333244069">+973 1769 4069</a> </h3>
+                                    <h3><a href="tel:+97333244069">+973 3324 4069</a> </h3>
                             </div>
                         </div>
                     </div>

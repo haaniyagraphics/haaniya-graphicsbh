@@ -6152,9 +6152,9 @@ span.fill {
   padding: 30px 0;
 }
 
-.tabs_item:first-child {
-  /* display: block; */
-}
+/* .tabs_item:first-child {
+  display: block; 
+}*/
 
 .tabs_item img {
   width: 210px;

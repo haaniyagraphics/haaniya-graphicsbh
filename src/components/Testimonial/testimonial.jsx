@@ -8,7 +8,7 @@ const Testimonial = () => {
                     <div class="col-lg-6 col-md-12 ">
                         <div class="consen-section-title">
                             <h2> Hello! </h2>
-                            <h2> Haaniya <span>  Customers </span></h2>
+                            <h2> Dear <span>  Customers </span></h2>
                             <div class="lines style-three pt-20 pb-10">
                                 <div class="line"></div>
                             </div>
