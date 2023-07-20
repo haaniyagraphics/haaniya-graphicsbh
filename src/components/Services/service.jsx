@@ -10,9 +10,9 @@ const Services = () => {
             $('.em-service-text p').toggleClass('-expanded');
             
             if ($('.em-service-text p').hasClass('-expanded')) {
-              $('.service-button a').html('Collapse Content');
+              $('.service-button').html('Collapse Content');
             } else {
-              $('.service-button a').html('Continue Reading');
+              $('.service-button').html('Continue Reading');
             }
           })
     })
@@ -49,7 +49,7 @@ const Services = () => {
                             <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <a href="#" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                            <button> Learn More <i class="bi bi-whatsapp"></i> </button>
                          </div>
                     </div>
                 </div>
