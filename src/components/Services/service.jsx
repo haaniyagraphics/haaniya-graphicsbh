@@ -5,16 +5,15 @@ import { useEffect } from "react";
 
 const Services = () => {
     useEffect(() => {
-        alert($(".service-button").val())
-        $('.service-button a').on('click', function(){
+        $('.service-button button').on('click', function(){
             $('.em-service-text p').toggleClass('-expanded');
             
             if ($('.em-service-text p').hasClass('-expanded')) {
-              $('.service-button').html('Collapse Content');
+              $('.service-button button').html('Collapse Content');
             } else {
-              $('.service-button').html('Continue Reading');
+              $('.service-button button').html('Continue Reading');
             }
-          })
+          });
     })
     return (
 <div class="service-area" id="service">
@@ -49,7 +48,7 @@ const Services = () => {
                             <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <button> Learn More <i class="bi bi-whatsapp"></i> </button>
+                            <button> Learn More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
@@ -73,7 +72,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                            <a href="http://wa.me/97333244069" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                             <button> Learn More <i class="bi bi-plus"></i> </button>
                         </div>
                     </div>
                 </div>
@@ -95,7 +94,7 @@ const Services = () => {
                                  <p>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. We offer comprehensive brand and design services that include research, brand strategy and positioning, visual identity creation, rebranding and web design. </p>
                             </div>
                             <div class="service-button">
-                                <a href="http://wa.me/97333244069" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                                 <button> Learn More <i class="bi bi-plus"></i> </button>
                             </div>
                     </div>
                 </div>
@@ -117,7 +116,7 @@ const Services = () => {
                                      </p>
                             </div>
                         <div class="service-button">
-                             <a href="http://wa.me/97333244069" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                              <button> Learn More <i class="bi bi-plus"></i> </button>
                         </div>
                     </div>
                 </div>
@@ -140,7 +139,7 @@ const Services = () => {
                                   Printing services offer high-quality prints at competitive prices and fast delivery.</p>
                         </div>
                         <div class="service-button">
-                            <a href="http://wa.me/97333244069" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                                <button> Learn More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
@@ -163,7 +162,7 @@ const Services = () => {
                                 Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p>
                         </div>
                         <div class="service-button">
-                            <a href="http://wa.me/97333244069" target="_blank"> Learn More <i class="bi bi-whatsapp"></i> </a>
+                             <button> Learn More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
