@@ -1,20 +1,7 @@
 import React from "react";
-import $ from 'jquery';
-import { useEffect } from "react";
 
 
 const Services = () => {
-    useEffect(() => {
-        $('.service-button button').on('click', function(){
-            $('.em-service-text p').toggleClass('-expanded');
-            
-            if ($('.em-service-text p').hasClass('-expanded')) {
-              $('.service-button button').html('Collapse Content');
-            } else {
-              $('.service-button button').html('Continue Reading');
-            }
-          });
-    })
     return (
 <div class="service-area" id="service">
     <div class="container">
@@ -162,7 +149,7 @@ const Services = () => {
                                 Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p>
                         </div>
                         <div class="service-button">
-                             <button> Learn More <i class="bi bi-plus"></i> </button>
+                         <button> Learn More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
