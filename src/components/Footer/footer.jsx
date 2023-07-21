@@ -9,7 +9,7 @@ const Footer = () => {
                     
                     <div class="footer-bg">
                         <div class="row">
-                            <div class="col-lg-4 col-sm-6">
+                            <div class="col-lg-4 col-sm-12">
                                 <div class="widget widgets-company-info mb-4 mb-lg-0">
                                     <div class="company-info-desc pr-2">
                                         <h4 class="widget-title">Reach Us</h4>
@@ -23,7 +23,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-6">
+                            <div class="col-lg-2 col-sm-12">
                                 <div class="widget widget-nav-menu">
                                     <h4 class="widget-title">Company</h4>
                                     <div class="menu-quick-link-content">
@@ -38,7 +38,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-3 col-sm-12">
                                 <div class="widget widget-nav-menu">
                                     <h4 class="widget-title"> Our Services </h4>
                                     <div class="menu-quick-link-content">
@@ -53,7 +53,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-3 col-sm-12">
                                 <div class="widget widget-nav-menu">
                                         <h4 class="widget-title">Contact Us</h4>
                                         <div class="menu-quick-link-content">
