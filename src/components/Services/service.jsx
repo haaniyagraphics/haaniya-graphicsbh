@@ -2,16 +2,6 @@ import React from "react";
 
 
 const Services = () => {
-    const shoot = () => {
-        //alert("Great Shot!");
-        $('.em-service-text p').toggleClass('-expanded');
-        if ($('.em-service-text p').hasClass('-expanded')) {
-            $('.service-button button').html('Collapse Content');
-          } 
-        else {
-            $('.service-button button').html('Continue Reading');
-          }
-      }
     return (
 <div class="service-area" id="service">
     <div class="container">
