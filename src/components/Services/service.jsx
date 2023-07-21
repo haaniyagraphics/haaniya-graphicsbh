@@ -11,7 +11,7 @@ const Services = () => {
                     var $thisParagraph = $( this );
                     var count = 0;
                     $thisParagraph.on( "click", function() {
-                     count++;
+                     count = 1;
                     $( ".service-button button" ).find( "span" ).text( "clicks: " + count );
                     $thisParagraph.toggleClass( "-expanded", count = 1 );
                 } );
