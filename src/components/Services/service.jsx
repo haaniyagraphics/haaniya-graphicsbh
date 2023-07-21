@@ -2,13 +2,18 @@ import React from "react";
 
 
 const Services = () => {
-    var actv = false;
     const shoot = () => {
         //alert("Great Shot!");
+        
 
+        var count = 0;
+            $( ".em-service-text p" ).each( function() {
                     var $thisParagraph = $( this );
-                    $thisParagraph.on( "click", function() {
-                        $( ".service-button button" ).toggleClass( "-expanded", actv = true);
+                    var count = 1;
+                    $( ".service-button button" ).on( "click", function() {
+                    if(count == 1)
+                    $thisParagraph.toggleClass( "-expanded", count = 1 );
+                } );
             } );
       }
     return (
