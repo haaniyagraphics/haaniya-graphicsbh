@@ -9,11 +9,9 @@ const Services = () => {
         var count = 0;
             $( ".em-service-text p" ).each( function() {
                     var $thisParagraph = $( this );
-                    var count = 0;
+                    var count = false;
                     $( ".service-button button" ).on( "click", function() {
-                     count = 1;
-                    $( ".service-button button" ).find( "span" ).text( "clicks: " + count );
-                    $thisParagraph.toggleClass( "-expanded", count = 1 );
+                    $thisParagraph.toggleClass( "-expanded", true);
                 } );
             } );
       }
