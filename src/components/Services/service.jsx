@@ -5,7 +5,7 @@ const Services = () => {
     const shoot = () => {
         //alert("Great Shot!");
         $('.em-service-text p').toggleClass('-expanded');
-        if ($('.em-service-text p').hasClass('-expanded')) {
+        if ($(this).hasClass('-expanded')) {
             $('.service-button button').html('Read Less');
           } 
         else {
