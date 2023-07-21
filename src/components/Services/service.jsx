@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Services = () => {\
+const Services = () => {
     var actv = false;
     const shoot = () => {
         //alert("Great Shot!");
