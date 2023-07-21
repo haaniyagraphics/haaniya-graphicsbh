@@ -9,7 +9,7 @@ const Services = () => {
         if ($(this)
         .addClass("open")
         .parent().find('.em-service-text p').hasClass('-expanded')) {
-            $('.service-button button').html('Read Less');
+            $('.service-button button').html('Read Les');
           } 
         else {
             $('.service-button button').html('Read More');
