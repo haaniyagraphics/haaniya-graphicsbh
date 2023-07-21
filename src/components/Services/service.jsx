@@ -5,15 +5,17 @@ const Services = () => {
     const shoot = () => {
         //alert("Great Shot!");
         
-        $('.em-service-text p').toggleClass('-expanded');
-        if ($(this)
-        .addClass("open")
-        .parent().find('.em-service-text p').hasClass('-expanded')) {
-            $('.service-button button').html('Read Les');
-          } 
-        else {
-            $('.service-button button').html('Read More');
-          }
+
+        var count = 0;
+$( ".service-button button'" ).each( function() {
+  var $thisParagraph = $( this );
+  var count = 0;
+  $thisParagraph.on( "click", function() {
+    count++;
+    $thisParagraph.find( ".em-service-text p" ).text( "clicks: " + count );
+    $thisParagraph.toggleClass( "-expanded", count === 1 );
+  } );
+} );
       }
     return (
 <div class="service-area" id="service">
