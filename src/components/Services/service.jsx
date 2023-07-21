@@ -1,14 +1,14 @@
 import React from "react";
 
 
-const Services = () => {
-    var active = false;
+const Services = () => {\
+    var actv = false;
     const shoot = () => {
         //alert("Great Shot!");
-        
+
                     var $thisParagraph = $( this );
                     $thisParagraph.on( "click", function() {
-                    $thisParagraph.toggleClass( "-expanded", active = true);
+                        $( ".service-button button" ).toggleClass( "-expanded", actv = true);
             } );
       }
     return (
