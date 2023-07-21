@@ -6,7 +6,7 @@ const Services = () => {
         //alert("Great Shot!");
         $('.em-service-text p').toggleClass('-expanded');
         if ($('.em-service-text p').hasClass('-expanded')) {
-            $('.service-button button').html('Collapse Content');
+            $('.service-button button').html('Read Less');
           } 
         else {
             $('.service-button button').html('Read More');
