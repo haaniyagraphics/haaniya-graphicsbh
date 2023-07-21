@@ -10,7 +10,7 @@ const Services = () => {
             $( ".em-service-text p" ).each( function() {
                     var $thisParagraph = $( this );
                     var count = 0;
-                    $thisParagraph.on( "click", function() {
+                    $( ".service-button button" ).on( "click", function() {
                      count = 1;
                     $( ".service-button button" ).find( "span" ).text( "clicks: " + count );
                     $thisParagraph.toggleClass( "-expanded", count = 1 );
