@@ -59,7 +59,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                             <button> Learn More <i class="bi bi-plus"></i> </button>
+                             <button> Read More <i class="bi bi-plus"></i> </button>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Services = () => {
                                  <p>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. We offer comprehensive brand and design services that include research, brand strategy and positioning, visual identity creation, rebranding and web design. </p>
                             </div>
                             <div class="service-button">
-                                 <button> Learn More <i class="bi bi-plus"></i> </button>
+                                 <button> Read More <i class="bi bi-plus"></i> </button>
                             </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const Services = () => {
                                      </p>
                             </div>
                         <div class="service-button">
-                              <button> Learn More <i class="bi bi-plus"></i> </button>
+                              <button> Read More <i class="bi bi-plus"></i> </button>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ const Services = () => {
                                   Printing services offer high-quality prints at competitive prices and fast delivery.</p>
                         </div>
                         <div class="service-button">
-                                <button> Learn More <i class="bi bi-plus"></i> </button>
+                                <button> Read More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const Services = () => {
                                 Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p>
                         </div>
                         <div class="service-button">
-                         <button> Learn More <i class="bi bi-plus"></i> </button>
+                         <button> Read More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
