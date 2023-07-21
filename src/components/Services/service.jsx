@@ -4,8 +4,11 @@ import React from "react";
 const Services = () => {
     const shoot = () => {
         //alert("Great Shot!");
+        
         $('.em-service-text p').toggleClass('-expanded');
-        if ($(this).hasClass('-expanded')) {
+        if ($(this)
+        .addClass("open")
+        .parent().find('.em-service-text p').hasClass('-expanded')) {
             $('.service-button button').html('Read Less');
           } 
         else {

@@ -37,15 +37,6 @@ jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
 // ... give time for script to load, then type (or see below for non wait option)
 jQuery.noConflict();
-jQuery('.service-button a').on('click', function(){
-  jQuery('.em-service-text p').toggleClass('-expanded');
-  
-  if (jQuery('.em-service-text p').hasClass('-expanded')) {
-    jQuery('.service-button a').html('Read Less');
-  } else {
-    jQuery('.service-button a').html('Read More');
-  }
-});
   </script>
   <!--End of Tawk.to Script-->
   </body>
