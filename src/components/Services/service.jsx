@@ -2,6 +2,16 @@ import React from "react";
 
 
 const Services = () => {
+    const shoot = () => {
+        //alert("Great Shot!");
+        $('.em-service-text p').toggleClass('-expanded');
+        if ($('.em-service-text p').hasClass('-expanded')) {
+            $('.service-button button').html('Collapse Content');
+          } 
+        else {
+            $('.service-button button').html('Continue Reading');
+          }
+      }
     return (
 <div class="service-area" id="service">
     <div class="container">
@@ -35,7 +45,7 @@ const Services = () => {
                             <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <button> Learn More <i class="bi bi-plus"></i> </button>
+                            <button onClick={shoot}> Learn More <i class="bi bi-plus"></i> </button>
                          </div>
                     </div>
                 </div>
