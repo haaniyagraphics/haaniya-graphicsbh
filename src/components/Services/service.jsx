@@ -7,15 +7,14 @@ const Services = () => {
         
 
         var count = 0;
-$( ".service-button button'" ).each( function() {
-  var $thisParagraph = $( this );
-  var count = 0;
-  $thisParagraph.on( "click", function() {
-    count++;
-    $thisParagraph.find( ".em-service-text p" ).text( "clicks: " + count );
-    $thisParagraph.toggleClass( "-expanded", count === 1 );
-  } );
-} );
+            $( ".em-service-text p" ).each( function() {
+                    var $thisParagraph = $( this );
+                    var count = 0;
+                    $thisParagraph.on( "click", function() {
+                     count++;
+                    $thisParagraph.toggleClass( "-expanded", count = 1 );
+                } );
+            } );
       }
     return (
 <div class="service-area" id="service">
