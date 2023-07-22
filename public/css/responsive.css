@@ -3208,7 +3208,7 @@
     }
 
     .slider-content h3 {
-        font-size: 15px;
+        display: none;
     }
 
     .slider-content {
