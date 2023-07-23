@@ -56,7 +56,7 @@ const Testimonial = () => {
 	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Writing something about us" />
 	                                        </div>
 	                                         <div class="quote_button">
-		                                           <button class="btn" type="submit">Send</button>
+		                                           <input class="btn" type="submit" value="Send" />
 	                                         </div>
 	                                     </div>
 	                                </div>
