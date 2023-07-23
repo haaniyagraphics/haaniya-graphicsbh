@@ -1110,7 +1110,7 @@ ul.sub-menu li:hover a span {
   transition: max-height 1s ease;
 }
 .extend {
-  max-height: 100vh;
+  max-height: 100vh !important;
 }
 .em-service-text p:not(.-expanded)::after {
   content: '';
