@@ -12,7 +12,7 @@ const Testimonial = () => {
                             <div class="lines style-three pt-20 pb-10">
                                 <div class="line"></div>
                             </div>
-                                <p class="about-text"> “We help Our Customers to Renew Their Business Function to Create Brandable Organizations” </p>
+                                <p class="about-text"> “We help Our Customers to Build/Renew Their Business Function to Create Brandable Organizations” </p>
                                 <p class="about-text2"></p>
                          </div>
                         <div class="dreamit-ceo-title">
