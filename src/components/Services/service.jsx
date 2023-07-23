@@ -1,18 +1,15 @@
+
 import React, { useState } from "react";
+
 import $ from 'jquery'
 
 
 const Services = () => {
 
     const extendStyle = {
-            content: '',
-            position: absolute,
-            top: 0,
-            bottom: 0,
-            left: 0,
-            right: 0,
-     };
-    const [toggl, setToggle] = useState(true);
+        maxheight: '100vh',
+     }
+    const [toggle, setToggle] = useState(true)
 
         //alert("Great Shot!");
     return (
@@ -45,13 +42,10 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                           
-                                     <p className={toggl && ( 
-        {extendStyle}
-    ) }> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
+                            <p style={ toggle && ({extendStyle}) }> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                        <a href="#" onClick={() => setToggle(!toggl)}> Read More <i class="bi bi-plus"> </i> </a>
+                        <a href="#" onClick={() => setToggle(!toggle)}> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
