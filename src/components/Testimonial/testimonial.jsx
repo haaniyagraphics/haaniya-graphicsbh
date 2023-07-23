@@ -16,10 +16,10 @@ const Testimonial = () => {
         .then((result) => {
             console.log(result.text);
             e.target.reset();
-            setSuccessMessage = result.text;
+            setSuccessMessage = setSuccessMessage(result.text);
         }, (error) => {
             console.log(error.text);
-            setErrMessage = error.text;
+            setErrMessage = setErrMessage(error.text);
         });
     };
     return (
