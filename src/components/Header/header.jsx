@@ -1,12 +1,10 @@
-import React from "react";
-import "./header.css";
+import React, { useState } from "react";
 
-const navInlineStyle = {
-    display: 'none',
-}
 const Header = () => {
+    const [toggle, setToggle] = useState(true)
+
     return (   
-        
+        <>
     <section>
             <div id="sticky-header" className="consen_nav_manu header____">
                 <div className="container">
@@ -38,16 +36,22 @@ const Header = () => {
             <div className="mobile-menu-area d-sm-block d-md-block d-lg-none header____">
                 <div className="mobile-menu mean-container">
                     <div class="mean-bar" >
-                        <a href="#nav" className="meanmenu-reveal">
+                        <a href="#nav" className="meanmenu-reveal" onClick={() => setToggle(!toggle)}>
                              <span></span> 
                             <span></span> 
                             <span></span>
                         </a>
+                        {toggle && (
 				    	<nav className="mean-nav">
-							<ul className="nav_scroll" style={navInlineStyle}>
+							<ul className="nav_scroll">
 									<li><a href="#">Home</a></li>
+                                    <li><a href="/#service">Our Services</a></li>
+                                    <li><a href="/#about">About Us</a></li> 
+                                    <li><a href="/#our-purpose">Hello! </a></li> 
+                                    <li><a href="/#contact">Contact Us</a></li>
 							</ul>
 					    </nav>
+                         )}
                     </div>
                     <div className="mean-push">
                     </div>
@@ -55,7 +59,7 @@ const Header = () => {
             </div>
 </section>
             
-        
+            </>
 
     )
 }
