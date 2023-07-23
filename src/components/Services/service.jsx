@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import $ from 'jquery'
 
 
@@ -38,7 +38,7 @@ const Services = () => {
                             <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                            <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                            <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                            <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Services = () => {
                                  <p>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. We offer comprehensive brand and design services that include research, brand strategy and positioning, visual identity creation, rebranding and web design. </p>
                             </div>
                             <div class="service-button">
-                                <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                                <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                             </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Services = () => {
                                      </p>
                             </div>
                         <div class="service-button">
-                                 <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                                 <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ const Services = () => {
                                   Printing services offer high-quality prints at competitive prices and fast delivery.</p>
                         </div>
                         <div class="service-button">
-                                <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                                <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ const Services = () => {
                                 Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p>
                         </div>
                         <div class="service-button">
-                            <a href="#"> Read More (<span>clicks: ${count}</span>)<i class="bi bi-plus"> </i> </a>
+                            <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
