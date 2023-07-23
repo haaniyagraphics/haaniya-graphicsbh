@@ -6,7 +6,9 @@ import $ from 'jquery'
 
 const Services = () => {
     
-    
+    const myComponentStyle = {
+        maxheight: "100vh"
+     }
     const [toggle, setToggle] = useState(true)
     const [toggleOne, setOneToggle] = useState(true)
     const [toggleTwo, setTwoToggle] = useState(true)
@@ -45,7 +47,7 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p style={ toggle && ( "max-height: 100vh")}> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, 
+                            <p style={ toggle && ( {myComponentStyle} )}> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, 
                                 colors, shapes, and layouts to create effective and attractive designs for various purposes.
                                  { toggle && (<p> Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p> )}
                             </p>
@@ -169,7 +171,7 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p style={ toggle && ( "max-height: 100vh")}>We will help you build your website and app in quick, better and cost-effective.
+                            <p style={ toggle && (max-height: 100vh)}>We will help you build your website and app in quick, better and cost-effective.
                                 Your idea is a more valuable asset to your company. You will convert your idea into the latest industry-standard mobile app and website, 
                                 { toggleFive && (<p> with the help of us. Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p> )}
                             </p>
