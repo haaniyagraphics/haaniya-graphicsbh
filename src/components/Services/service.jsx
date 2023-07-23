@@ -57,7 +57,7 @@ const Services = () => {
                             <h1> 02 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p className={show ? "-extended" : "!-extended"} >  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
+                            <p >  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
                                 Do you have specific goals in mind you want help with? We help you consider outsourcing some of digital marketing such as SEO,
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
