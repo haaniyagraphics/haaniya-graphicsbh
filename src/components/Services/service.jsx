@@ -63,7 +63,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                            <button onClick={() => setShow(!-extended)}> Read More<i class="bi bi-plus"> </i> </button>
+                            <button onClick={() => setShow(!show)}> Read More<i class="bi bi-plus"> </i> </button>
                         </div>
                     </div>
                 </div>
