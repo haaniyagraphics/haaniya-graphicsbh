@@ -42,7 +42,7 @@ const Testimonial = () => {
                                     
                         <div class="about-button contact-us">
                             <div class="contact_from_box">
-                                <div class="contact_title pb-4">
+                                <div class="contact_title pb-4 consen-section-title">
                                       <h2>Feel free to <span> review us</span></h2>
                                  </div>
 
