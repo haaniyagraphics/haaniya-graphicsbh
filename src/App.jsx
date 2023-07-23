@@ -5,7 +5,6 @@ import About from "./components/About/about";
 import Testimonial from "./components/Testimonial/testimonial";
 import Footer from "./components/Footer/footer";
 import Works from "./components/Works/works";
-import React, { Component } from 'react';
 import $ from 'jquery';
 function App() {
 
