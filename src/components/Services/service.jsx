@@ -39,7 +39,7 @@ const Services = () => {
                             <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <button onClick={() => setShow(!show)> Read More <i class="bi bi-plus"> </i> </button>
+                            <button onClick={() => setShow(!show)}> Read More <i class="bi bi-plus"> </i> </button>
                          </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                            <button onClick={() => setShow(!-extended)> Read More<i class="bi bi-plus"> </i> </button>
+                            <button onClick={() => setShow(!-extended)}> Read More<i class="bi bi-plus"> </i> </button>
                         </div>
                     </div>
                 </div>
