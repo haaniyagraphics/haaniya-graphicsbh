@@ -8,7 +8,7 @@ const Services = () => {
     const clickBtn = (e) => {
         e.preventDefault();
         alert("hello");
-        $('.em-service-text p').toggleClass("-extended");
+        $( this ).parent().find( ".em-service-text p" ).toggleClass("-extended");
       };
         //alert("Great Shot!");
     return (
