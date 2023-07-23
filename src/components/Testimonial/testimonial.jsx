@@ -69,7 +69,7 @@ const Testimonial = () => {
 	                                     </div>
 	                                </div>
                                 </form>
-                            <div id="status">{setSuccessMessage} {setErrMessage}</div>
+                            <div id="status">{successMessage} {errMessage}</div>
 
                         </div>
                             
