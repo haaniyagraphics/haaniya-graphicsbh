@@ -56,22 +56,14 @@ const Testimonial = () => {
 	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Writing something about us" />
 	                                        </div>
 	                                         <div class="quote_button">
-		                                           <input class="btn" type="submit" value="Send" />
+		                                           <button class="btn" type="submit">Send</button>
 	                                         </div>
 	                                     </div>
 	                                </div>
                                 </form>
                             <div id="status"></div>
                         </div>
-                            <form ref={form} onSubmit={sendEmail}>
-                                        <label>Name</label>
-                                         <input type="text" name="user_name" />
-                                         <label>Email</label>
-                                         <input type="email" name="user_email" />
-                                         <label>Review</label>
-                                         <textarea name="message" />
-                                        <input type="submit" value="Send" />
-                         </form>
+                            
                         </div>
                     </div>
                     
