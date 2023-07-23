@@ -35,7 +35,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                         <div class="em-service-icon">
-                            <img src="./service-icon.png" />
+                            <img src="./haaniya-graphic-design.png" />
                         </div>
                          <div class="em-service-title">
                             <h2> Graphic Design </h2>
@@ -62,7 +62,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                         <div class="em-service-icon">
-                            <img src="./service-icon2.png" />
+                            <img src="./haaniya-social-media-marketing.png" />
                         </div>
                         <div class="em-service-title">
                             <h2> Social Media Marketing </h2>
@@ -87,7 +87,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                             <div class="em-service-icon">
-                                <img src="./service-icon3.png" />
+                                <img src="./haaniya-branding.png" />
                             </div>
                             <div class="em-service-title">
                                 <h2> Branding </h2>
@@ -111,7 +111,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                         <div class="em-service-icon">
-                            <img src="./service-icon.png" />
+                            <img src="./haarniya-autocad.png" />
                          </div>
                         <div class="em-service-title">
                             <h2> AUTOCAD </h2>
@@ -134,7 +134,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                         <div class="em-service-icon">
-                            <img src="./service-icon.png" />
+                            <img src="./haaniya-printing.png" />
                         </div>
                          <div class="em-service-title">
                             <h2> Printing</h2>
@@ -159,7 +159,7 @@ const Services = () => {
                 <div class="dreamit-service-box">
                     <div class="service-box-inner">
                         <div class="em-service-icon">
-                            <img src="./service-icon.png" />
+                            <img src="./haaniya-mobile-app-website.png" />
                         </div>
                          <div class="em-service-title">
                             <h2>Websites & Mobile App</h2>
