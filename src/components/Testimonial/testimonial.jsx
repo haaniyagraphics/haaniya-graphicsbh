@@ -43,17 +43,17 @@ const Testimonial = () => {
                                  <div class="row">
                                       <div class="col-lg-6">
                                             <div class="form_box mb-30">
-                                                 <input type="text" name="name" placeholder="user_name" />
+                                                 <input type="text" name="user_name" placeholder="Name" />
                                           </div>
                                         </div>
                                          <div class="col-lg-6">
                                             <div class="form_box mb-30">
-                                                <input type="email" name="email" placeholder="user_email" />
+                                                <input type="email" name="user_email" placeholder="Email" />
                                             </div>
                                         </div>
 	                                   <div class="col-lg-12">
 	                                        <div class="form_box mb-30">
-	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" />
+	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Writing something about us" />
 	                                        </div>
 	                                         <div class="quote_button">
 		                                           <button class="btn" type="submit">Send</button>
