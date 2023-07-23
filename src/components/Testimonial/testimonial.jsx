@@ -1,10 +1,10 @@
 import React, { useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
-const Testimonial = (props) => {
+const Testimonial = () => {
     const form = useRef();
 
-    const [{ name, email, message }, setState] = useState(initialState)
+    const [{ name, email, message }, setState] = useState(initialState);
     const [statusMessage, setStatusMessage] = useState("");
 
     const handleChange = (e) => {
