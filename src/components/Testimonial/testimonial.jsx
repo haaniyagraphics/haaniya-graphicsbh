@@ -1,10 +1,14 @@
-import React, { useRef, useState} from 'react';
+import React, { useState, useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 const Testimonial = () => {
     const form = useRef();
-
-    const [{ name, email, message }, setState] = useState(initialState);
+    const initialValues = {
+        user_name: "",
+        user_email: "",
+        message: ""
+        };
+    const [{ name, email, message }, setState] = useState(initialValues);
     const [statusMessage, setStatusMessage] = useState("");
 
     const handleChange = (e) => {
@@ -12,7 +16,7 @@ const Testimonial = () => {
         setState((prevState) => ({ ...prevState, [name]: value }))
       }
 
-    const clearState = () => setState({ ...initialState })
+    const clearState = () => setState({ ...initialValues })
 
     const sendEmail = (e) => {
       e.preventDefault();
