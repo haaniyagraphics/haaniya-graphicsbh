@@ -61,7 +61,7 @@ const Testimonial = () => {
                                         </div>
 	                                   <div class="col-lg-12">
 	                                        <div class="form_box mb-30">
-	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Writing something about us" ref={messageRef} />
+	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Write here..." ref={messageRef} />
 	                                        </div>
 	                                         <div class="quote_button">
 		                                           <button class="btn" type="submit">Send</button>
