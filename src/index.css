@@ -1109,7 +1109,9 @@ ul.sub-menu li:hover a span {
   overflow: hidden;
   transition: max-height 1s ease;
 }
-
+.extend {
+  max-height: 100vh;
+}
 .em-service-text p:not(.-expanded)::after {
   content: '';
   position: absolute;
