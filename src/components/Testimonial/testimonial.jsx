@@ -43,7 +43,7 @@ const Testimonial = () => {
                         <div class="about-button contact-us">
                             <div class="contact_from_box">
                                 <div class="contact_title pb-4">
-                                      <h3>Feel free to review us/</h3>
+                                      <h2>Feel free to <span> review us</span></h2>
                                  </div>
 
                                 <form id="dreamit-form" ref={form} onSubmit={sendEmail}>
