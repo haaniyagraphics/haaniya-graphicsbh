@@ -7,6 +7,7 @@ const Services = () => {
 
     const clickBtn = (e) => {
         e.preventDefault();
+        alert("hello");
         $(this).closest('.service-box-inner').find('.em-service-text p').toggleClass("-extended");
       };
         //alert("Great Shot!");
