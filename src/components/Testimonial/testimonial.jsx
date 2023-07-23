@@ -24,7 +24,7 @@ const Testimonial = () => {
                                     
                         <div class="about-button">
                             <a href="mailto:info@haaniyagraphics.com"> Clients Review <i class="bi bi-plus"></i> </a>
-                            <form ref={form} onSubmit={sendEmail}>
+                            <form>
                                         <label>Name</label>
                                          <input type="text" name="user_name" />
                                          <label>Email</label>
