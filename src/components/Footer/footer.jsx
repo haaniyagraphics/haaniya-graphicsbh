@@ -18,8 +18,8 @@ const Footer = () => {
                                     <div class="follow-company-icon">
                                         <a class="social-icon-color" href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100094470146715" target="_blank"> <i class="bi bi-facebook"></i> </a>
                                         <a class="social-icon-color2" href="https://www.instagram.com/haaniyagraphicsbh/" target="_blank"> <i class="bi bi-instagram"> </i> </a>
-                                        <a class="social-icon-color1" href="https://www.threads.net/@haaniyagraphicsbh" target="_blank"> <img src="./insta-threads.png" alt="Bootstrap" width="29" height="29" /> </a>
-                                        <a class="social-icon-color3" href="#"> <i class="bi bi-linkedin"></i> </a>
+                                        <a class="social-icon-color3" href="https://www.threads.net/@haaniyagraphicsbh" target="_blank"> <img src="./insta-threads.png" alt="Bootstrap" width="29" height="29" /> </a>
+                                        <a class="social-icon-color1" href="#"> <i class="bi bi-linkedin"></i> </a>
                                     </div>
                                 </div>
                             </div>
