@@ -1,8 +1,18 @@
-
+import React, { useState } from "react";
 import $ from 'jquery'
 
 
 const Services = () => {
+
+    const extendStyle = {
+            content: '',
+            position: absolute,
+            top: 0,
+            bottom: 0,
+            left: 0,
+            right: 0,
+     }
+    const [toggle, setToggle] = useState(true)
 
         //alert("Great Shot!");
     return (
@@ -35,10 +45,13 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
+                           
+                                     <p class= {toggle && ( 
+        {extendStyle}
+    ) }> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
                         </div>
                         <div class="service-button">
-                            <button> Read More <i class="bi bi-plus"> </i> </button>
+                        <a href="#" onClick={() => setToggle(!toggle)}> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
@@ -62,7 +75,7 @@ const Services = () => {
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
                         </div>
                         <div class="service-button">
-                            <button> Read More<i class="bi bi-plus"> </i> </button>
+                            <a href="#"> Read More<i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
