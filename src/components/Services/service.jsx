@@ -140,7 +140,7 @@ const Services = () => {
                             <h2> Printing</h2>
                         </div>
                         <div class="service-number">
-                            <h1> 01 </h1>
+                            <h1> 05 </h1>
                         </div>
                         <div class="em-service-text">
                             <p className={ toggleFour && 'extend'}>Printing Services: Printing services are a convenient and cost-effective way to create and order various printed products online.
@@ -165,7 +165,7 @@ const Services = () => {
                             <h2>Websites & Mobile App</h2>
                         </div>
                         <div class="service-number">
-                            <h1> 01 </h1>
+                            <h1> 06 </h1>
                         </div>
                         <div class="em-service-text">
                             <p className={ toggleFive && 'extend'}>We will help you build your website and app in quick, better and cost-effective.
