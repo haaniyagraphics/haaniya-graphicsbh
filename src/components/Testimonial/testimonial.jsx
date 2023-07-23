@@ -51,11 +51,6 @@ const Testimonial = () => {
                                                 <input type="email" name="email" placeholder="user_email" />
                                             </div>
                                         </div>
-                                         <div class="col-lg-6">
-                                            <div class="form_box mb-30">
-                                        		<input type="text" name="phone" placeholder="Phone Number" />
-	                                        </div>
-	                                     </div>
 	                                   <div class="col-lg-12">
 	                                        <div class="form_box mb-30">
 	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" />
