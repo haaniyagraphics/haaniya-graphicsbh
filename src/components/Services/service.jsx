@@ -7,6 +7,11 @@ import $ from 'jquery'
 const Services = () => {
 
     const [toggle, setToggle] = useState(true)
+    const [toggleOne, setOneToggle] = useState(true)
+    const [toggleTwo, setTwoToggle] = useState(true)
+    const [toggleThree, setThreeToggle] = useState(true)
+    const [toggleFour, setFourToggle] = useState(true)
+    const [toggleFive, setFiveToggle] = useState(true)
 
         //alert("Great Shot!");
     return (
@@ -68,11 +73,11 @@ const Services = () => {
                         <div class="em-service-text">
                             <p >  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
                                 Do you have specific goals in mind you want help with? 
-                                { toggle && (<p>We help you consider outsourcing some of digital marketing such as SEO,
+                                { toggleOne && (<p>We help you consider outsourcing some of digital marketing such as SEO,
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more </p>) } </p>
                         </div>
                         <div class="service-button">
-                            <a href="#na" onClick={() => setToggle(!toggle)}> Read More<i class="bi bi-plus"> </i> </a>
+                            <a href="#na" onClick={() => setOneToggle(!toggleOne)}> Read More<i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
@@ -91,10 +96,12 @@ const Services = () => {
                                 <h1> 03 </h1>
                             </div>
                             <div class="em-service-text">
-                                 <p>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. We offer comprehensive brand and design services that include research, brand strategy and positioning, visual identity creation, rebranding and web design. </p>
+                                 <p>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. 
+                                 { toggleTwo && (<p>We offer comprehensive brand and design services that include research,
+                                     brand strategy and positioning, visual identity creation, rebranding and web design.</p>) } </p>
                             </div>
                             <div class="service-button">
-                                <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
+                                <a href="#" onClick={() => setOneToggle(!toggleTwo)}> Read More <i class="bi bi-plus"> </i> </a>
                             </div>
                     </div>
                 </div>
@@ -112,11 +119,13 @@ const Services = () => {
                         <div class="service-number">
                             <h1> 04 </h1></div>
                             <div class="em-service-text">
-                                <p> Our experienced technicians provide AutoCAD drafting services including 2D drafting of residential and commercial projects. We create and transform existing drawings,Architecture Plans,Space Planing,Shop Drawing,Alteration,Renovation plan and more.
+                                <p> Our experienced technicians provide AutoCAD drafting services including 2D drafting of residential and commercial projects.
+                                     We create and transform existing drawings,
+                                     { toggleThree && (<p>Architecture Plans,Space Planing,Shop Drawing,Alteration,Renovation plan and more.</p>)}
                                      </p>
                             </div>
                         <div class="service-button">
-                                 <a href="#"> Read More <i class="bi bi-plus"> </i> </a>
+                                 <a href="#" onClick={() => setOneToggle(!toggleThree)}> Read More <i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
@@ -135,11 +144,13 @@ const Services = () => {
                         </div>
                         <div class="em-service-text">
                             <p>Printing Services: Printing services are a convenient and cost-effective way to create and order various printed products online.
-                                 Whether you need to print documents, photos, flyers, posters, brochures, banners, stickers, labels, cards, invitations, calendars, mugs, t-shirts, or any other custom product, you can find the best printing service for your needs here. You can choose from a variety of printing options, such as paper type, size, color, finish, binding, and more. 
-                                  Printing services offer high-quality prints at competitive prices and fast delivery.</p>
+                                 Whether you need to print documents, photos, flyers, posters, brochures, banners, stickers, labels, cards, invitations, calendars, mugs, t-shirts, or any other custom product, you can find the best printing service for your needs here. 
+                                 { toggleFour && (<p>You can choose from a variety of printing options, such as paper type, size, color, finish, binding, and more. 
+                                  Printing services offer high-quality prints at competitive prices and fast delivery.</p>) }
+                                  </p>
                         </div>
                         <div class="service-button">
-                                <a href="#" > Read More <i class="bi bi-plus"> </i> </a>
+                                <a href="#" onClick={() => setOneToggle(!toggleFour)}> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
@@ -158,11 +169,12 @@ const Services = () => {
                         </div>
                         <div class="em-service-text">
                             <p>We will help you build your website and app in quick, better and cost-effective.
-                                Your idea is a more valuable asset to your company. You will convert your idea into the latest industry-standard mobile app and website, with the help of us. 
-                                Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p>
+                                Your idea is a more valuable asset to your company. You will convert your idea into the latest industry-standard mobile app and website, 
+                                { toggleFive && (<p> with the help of us. Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p> )}
+                            </p>
                         </div>
                         <div class="service-button">
-                            <a href="#"> Read More<i class="bi bi-plus"> </i> </a>
+                            <a href="#" onClick={() => setOneToggle(!toggleFive)}> Read More<i class="bi bi-plus"> </i> </a>
                          </div>
                     </div>
                 </div>
