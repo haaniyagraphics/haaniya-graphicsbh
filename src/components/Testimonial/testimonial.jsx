@@ -1,34 +1,25 @@
-import React, { useState, useRef} from 'react';
+import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 const Testimonial = () => {
     const form = useRef();
-    const initialValues = {
-        user_name: "",
-        user_email: "",
-        message: ""
-        };
-    const [{ name, email, message }, setState] = useState(initialValues);
-    const [statusMessage, setStatusMessage] = useState("");
-
-    const handleChange = (e) => {
-        const { name, value } = e.target
-        setState((prevState) => ({ ...prevState, [name]: value }))
-      }
-
-    const clearState = () => setState({ ...initialValues })
+    const nameRef = useRef(null);
+    const emailRef = useRef(null);
+    const messageRef = useRef(null);
+    const [successMessage, setSuccessMessage] = useState('');
+    const [errMessage, setErrMessage] = useState('');
 
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_ur1rlzr', 'template_x5p1dz4', e.target, 'CtvSZoTb8-dUOjwXD')
+      emailjs.sendForm('service_ur1rlzr', 'template_x5p1dz4', form.current, 'CtvSZoTb8-dUOjwXD')
         .then((result) => {
-            console.log(result.text, result.status);
-            clearState();
-            setStatusMessage("Email sent success");
+            console.log(result.text);
+            e.target.reset();
+            setSuccessMessage = result.text;
         }, (error) => {
             console.log(error.text);
-            setStatusMessage(`${error.text} happened`);
+            setErrMessage = error.text;
         });
     };
     return (
@@ -60,17 +51,17 @@ const Testimonial = () => {
                                  <div class="row">
                                       <div class="col-lg-6">
                                             <div class="form_box mb-30">
-                                                 <input type="text" ref={name} name="user_name" placeholder="Name" />
+                                                 <input type="text" name="user_name" ref={nameRef} placeholder="Name" />
                                           </div>
                                         </div>
                                          <div class="col-lg-6">
                                             <div class="form_box mb-30">
-                                                <input type="email" ref={email} name="user_email" placeholder="Email" />
+                                                <input type="email" name="user_email" ref={emailRef} placeholder="Email" />
                                             </div>
                                         </div>
 	                                   <div class="col-lg-12">
 	                                        <div class="form_box mb-30">
-	                                        	<textarea name="message" ref={message} id="message" cols="30" rows="10" placeholder="Writing something about us" />
+	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Writing something about us" ref={messageRef} />
 	                                        </div>
 	                                         <div class="quote_button">
 		                                           <button class="btn" type="submit">Send</button>
@@ -78,7 +69,8 @@ const Testimonial = () => {
 	                                     </div>
 	                                </div>
                                 </form>
-                            <div id="status"><p>{statusMessage}</p></div>
+                            <div id="status">{setSuccessMessage} {setErrMessage}</div>
+
                         </div>
                             
                         </div>
