@@ -32,8 +32,42 @@ const Testimonial = () => {
                             <h4> Shanavas Parappan </h4><span>Director &amp; Founder</span>
                         </div>
                                     
-                        <div class="about-button">
-                            <a href="mailto:info@haaniyagraphics.com"> Clients Review <i class="bi bi-plus"></i> </a>
+                        <div class="about-button contact-us">
+                            <div class="contact_from_box">
+                                <div class="contact_title pb-4">
+                                      <h3>Write your Review here!</h3>
+                                 </div>
+
+                                <form id="dreamit-form" ref={form} onSubmit={sendEmail}>
+
+                                 <div class="row">
+                                      <div class="col-lg-6">
+                                            <div class="form_box mb-30">
+                                                 <input type="text" name="name" placeholder="user_name" />
+                                          </div>
+                                        </div>
+                                         <div class="col-lg-6">
+                                            <div class="form_box mb-30">
+                                                <input type="email" name="email" placeholder="user_email" />
+                                            </div>
+                                        </div>
+                                         <div class="col-lg-6">
+                                            <div class="form_box mb-30">
+                                        		<input type="text" name="phone" placeholder="Phone Number" />
+	                                        </div>
+	                                     </div>
+	                                   <div class="col-lg-12">
+	                                        <div class="form_box mb-30">
+	                                        	<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" />
+	                                        </div>
+	                                         <div class="quote_button">
+		                                           <button class="btn" type="submit">Send</button>
+	                                         </div>
+	                                     </div>
+	                                </div>
+                                </form>
+                            <div id="status"></div>
+                        </div>
                             <form ref={form} onSubmit={sendEmail}>
                                         <label>Name</label>
                                          <input type="text" name="user_name" />
