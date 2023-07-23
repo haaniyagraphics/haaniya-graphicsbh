@@ -3,8 +3,10 @@ import $ from 'jquery'
 
 
 const Services = () => {
+    alert("hello");
     const [count, setCount] = useState(0);
     useEffect(() => {
+        alert("hello1");
         $('.service-button button').on('click',function(e){
             e.preventDefault();
             $(this).closest('.service-box-inner').find('.em-service-text p').toggleClass("-extended");

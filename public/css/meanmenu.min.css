@@ -98,7 +98,9 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mobile-menu-area {
-  background: #fff none repeat scroll 0 0;
+  background: #1d0914fa none repeat scroll 0 0;
+  border-bottom: 0.5px solid #fff;
+  padding: 0px 0px 10px 0px;
   }
 .mean-container .mean-nav ul li a.mean-expand {
   background: none;
