@@ -6,9 +6,6 @@ import $ from 'jquery'
 
 const Services = () => {
 
-    const extendStyle = {
-        maxheight: '100vh',
-     }
     const [toggle, setToggle] = useState(true)
 
         //alert("Great Shot!");
@@ -42,8 +39,13 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p style={ toggle && ({extendStyle}) }> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, colors, shapes, and layouts to create effective and attractive designs for various purposes. Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p>
-                        </div>
+                            <p> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, 
+                                colors, shapes, and layouts to create effective and attractive designs for various purposes.
+                                 { toggle && (<p> Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p> )}
+                            </p>
+                               
+                       
+                       </div>
                         <div class="service-button">
                         <a href="#" onClick={() => setToggle(!toggle)}> Read More <i class="bi bi-plus"> </i> </a>
                          </div>
@@ -65,11 +67,12 @@ const Services = () => {
                         </div>
                         <div class="em-service-text">
                             <p >  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
-                                Do you have specific goals in mind you want help with? We help you consider outsourcing some of digital marketing such as SEO,
-                                Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more  </p>
+                                Do you have specific goals in mind you want help with? 
+                                { toggle && (<p>We help you consider outsourcing some of digital marketing such as SEO,
+                                Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more </p>) } </p>
                         </div>
                         <div class="service-button">
-                            <a href="#"> Read More<i class="bi bi-plus"> </i> </a>
+                            <a href="#" onClick={() => setToggle(!toggle)}> Read More<i class="bi bi-plus"> </i> </a>
                         </div>
                     </div>
                 </div>
