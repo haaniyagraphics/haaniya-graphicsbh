@@ -1,19 +1,6 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from "react";
 
 const Testimonial = () => {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_ur1rlzr', 'template_x5p1dz4', form.current, 'CtvSZoTb8-dUOjwXD')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
     return (
         <div class="ceo-cod-area" id="our-purpose">
             <div class="container">
@@ -34,15 +21,6 @@ const Testimonial = () => {
                                     
                         <div class="about-button">
                             <a href="mailto:info@haaniyagraphics.com"> Clients Review <i class="bi bi-plus"></i> </a>
-                            <form ref={form} onSubmit={sendEmail}>
-                                        <label>Name</label>
-                                         <input type="text" name="user_name" />
-                                         <label>Email</label>
-                                         <input type="email" name="user_email" />
-                                         <label>Review</label>
-                                         <textarea name="message" />
-                                        <input type="submit" value="Send" />
-                         </form>
                         </div>
                     </div>
                     
