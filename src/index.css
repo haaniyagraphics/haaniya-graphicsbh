@@ -556,6 +556,9 @@ ul.sub-menu li:hover a span {
   .slider-thumb {
     padding-left: 3rem;
   }
+  .about-area .dreamit-about-thumb {
+    margin: 0px;
+  }
 }
 
 /*slider button*/
