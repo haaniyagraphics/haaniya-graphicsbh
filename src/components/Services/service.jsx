@@ -44,7 +44,7 @@ const Services = () => {
                             <h1> 01 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p className={ toggle && 'extend'}> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, 
+                            <p style={{ maxHeight: toggle ? '100vh' : '' }}> Graphic design is a creative process that combines art and technology to communicate ideas. It involves the use of visual elements such as typography, images, 
                                 colors, shapes, and layouts to create effective and attractive designs for various purposes.
                                  { toggle && (<p> Graphic designers can work on a variety of projects, such as logos, websites, posters, flyers, brochures, magazines, books, packaging, signage, and more.</p> )}
                             </p>
@@ -71,7 +71,7 @@ const Services = () => {
                             <h1> 02 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p className={ toggleOne && 'extend'}>  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
+                            <p style={{ maxHeight: toggleOne ? '100vh' : '' }}>  We are offering a wide range of digital marketing solutions dedicated to our client's brands. 
                                 Do you have specific goals in mind you want help with? 
                                 { toggleOne && (<p>We help you consider outsourcing some of digital marketing such as SEO,
                                 Email Marketing, Social Media Marketing,Social Media Promotions,Sponsor Ads and more </p>) } </p>
@@ -96,7 +96,7 @@ const Services = () => {
                                 <h1> 03 </h1>
                             </div>
                             <div class="em-service-text">
-                                 <p className={ toggleTwo && 'extend'}>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. 
+                                 <p style={{ maxHeight: toggleTwo ? '100vh' : '' }}>Every Business should have a Unique story behind thier brand identity mark. We help in building brand image and values for your business. 
                                  { toggleTwo && (<p>We offer comprehensive brand and design services that include research,
                                      brand strategy and positioning, visual identity creation, rebranding and web design.</p>) } </p>
                             </div>
@@ -119,7 +119,7 @@ const Services = () => {
                         <div class="service-number">
                             <h1> 04 </h1></div>
                             <div class="em-service-text">
-                                <p className={ toggleThree && 'extend'}> Our experienced technicians provide AutoCAD drafting services including 2D drafting of residential and commercial projects.
+                                <p style={{ maxHeight: toggleThree ? '100vh' : '' }}> Our experienced technicians provide AutoCAD drafting services including 2D drafting of residential and commercial projects.
                                      We create and transform existing drawings,
                                      { toggleThree && (<p>Architecture Plans,Space Planing,Shop Drawing,Alteration,Renovation plan and more.</p>)}
                                      </p>
@@ -143,7 +143,7 @@ const Services = () => {
                             <h1> 05 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p className={ toggleFour && 'extend'}>Printing Services: Printing services are a convenient and cost-effective way to create and order various printed products online.
+                            <p style={{ maxHeight: toggleFour ? '100vh' : '' }}>Printing Services: Printing services are a convenient and cost-effective way to create and order various printed products online.
                                  Whether you need to print documents, photos, flyers, posters, brochures, banners, stickers, labels, cards, invitations, calendars, mugs, t-shirts, or any other custom product, you can find the best printing service for your needs here. 
                                  { toggleFour && (<p>You can choose from a variety of printing options, such as paper type, size, color, finish, binding, and more. 
                                   Printing services offer high-quality prints at competitive prices and fast delivery.</p>) }
@@ -168,7 +168,7 @@ const Services = () => {
                             <h1> 06 </h1>
                         </div>
                         <div class="em-service-text">
-                            <p className={ toggleFive && 'extend'}>We will help you build your website and app in quick, better and cost-effective.
+                            <p style={{ maxHeight: toggleFive ? '100vh' : '' }}>We will help you build your website and app in quick, better and cost-effective.
                                 Your idea is a more valuable asset to your company. You will convert your idea into the latest industry-standard mobile app and website, 
                                 { toggleFive && (<p> with the help of us. Our professional team will help you develop and deliver your website and app in a quick, better, cost-effective and on-time.</p> )}
                             </p>
