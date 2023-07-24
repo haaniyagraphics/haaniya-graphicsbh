@@ -6,12 +6,12 @@ import $ from 'jquery'
 
 const Services = () => {
     
-    const [toggle, setToggle] = useState(true)
-    const [toggleOne, setOneToggle] = useState(true)
-    const [toggleTwo, setTwoToggle] = useState(true)
-    const [toggleThree, setThreeToggle] = useState(true)
-    const [toggleFour, setFourToggle] = useState(true)
-    const [toggleFive, setFiveToggle] = useState(true)
+    const [toggle, setToggle] = useState(false)
+    const [toggleOne, setOneToggle] = useState(false)
+    const [toggleTwo, setTwoToggle] = useState(false)
+    const [toggleThree, setThreeToggle] = useState(false)
+    const [toggleFour, setFourToggle] = useState(false)
+    const [toggleFive, setFiveToggle] = useState(false)
 
         //alert("Great Shot!");
     return (
