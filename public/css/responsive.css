@@ -3213,6 +3213,7 @@
 
     .slider-content {
         line-height: 15px;
+        margin: 80px 0px 0px;
     }
     
     .slider-content h1 {
@@ -3221,7 +3222,9 @@
 
     .slider-content p {
         font-size: 14px;
-        width: 100%;
+        width: 100% !important;
+        min-height: 20vh !important;
+        line-height: 17px !important;
     }
 
 
