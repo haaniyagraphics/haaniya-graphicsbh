@@ -42,7 +42,7 @@ const Header = () => {
                             <span></span>
                         </a>
                         {toggle ? 
-				    	<nav className="mean-nav" style={{ display: toggle ? 'block' : 'none' }}>
+				    	<nav className="mean-nav">
 							<ul className="nav_scroll">
 									<li><a href="#">Home</a></li>
                                     <li><a href="/#service">Our Services</a></li>
