@@ -41,8 +41,8 @@ const Header = () => {
                             <span></span> 
                             <span></span>
                         </a>
-                        {toggle && (
-				    	<nav className="mean-nav">
+                        {toggle ? 
+				    	<nav className="mean-nav" style={{ display: toggle ? 'block' : 'none' }}>
 							<ul className="nav_scroll">
 									<li><a href="#">Home</a></li>
                                     <li><a href="/#service">Our Services</a></li>
@@ -51,7 +51,9 @@ const Header = () => {
                                     <li><a href="/#contact">Contact Us</a></li>
 							</ul>
 					    </nav>
-                         )}
+                         :
+                         <></>
+                         }
                     </div>
                     <div className="mean-push">
                     </div>
