@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Header = () => {
-    const [toggle, setToggle] = useState(true)
+    const [toggle, setToggle] = useState(false)
 
     return (   
         <>
@@ -41,8 +41,7 @@ const Header = () => {
                             <span></span> 
                             <span></span>
                         </a>
-                        {toggle ? 
-				    	<nav className="mean-nav">
+				    	<nav className="mean-nav" style={{ display: toggle ? 'block' : 'none' }}>
 							<ul className="nav_scroll">
 									<li><a href="#">Home</a></li>
                                     <li><a href="/#service">Our Services</a></li>
@@ -51,9 +50,6 @@ const Header = () => {
                                     <li><a href="/#contact">Contact Us</a></li>
 							</ul>
 					    </nav>
-                         :
-                         <></>
-                         }
                     </div>
                     <div className="mean-push">
                     </div>
