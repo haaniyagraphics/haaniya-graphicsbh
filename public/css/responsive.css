@@ -3511,7 +3511,7 @@
     }
 
     .service-area {
-        padding: 78px 15px 20px;
+        padding: 20px 0 20px !important;
     }
 
     /*about area*/
@@ -3813,7 +3813,7 @@
 
 
     .ceo-cod-area {
-        padding: 78px 0 65px;
+        padding: 20px 0 20px !important;
     }
 
     .slill-single-thumb img {
