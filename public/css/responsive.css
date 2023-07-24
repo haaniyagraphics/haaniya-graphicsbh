@@ -3188,7 +3188,7 @@
         justify-content: center;
     }
     .about-area .dreamit-about-thumb {
-    margin: 0px 0 0 -10px;
+    margin: 0px 0 0 0px !important;
     }
     .header_top_menu {
         display: none !important;
@@ -3563,7 +3563,7 @@
     }
 
     .about-area {
-        padding: 80px 0 55px;
+        padding: 30px 0 30px !important;
     }
 
     .style-three.about-area {
