@@ -1,8 +1,4 @@
-RewriteEngine on
-RewriteBase /
-#for all requests on haaniyagraphics.com
-RewriteCond %{HTTP_HOST} haaniyagraphics\.com$ [NC]
-#if they are not for the www.haaniyagraphics.com
-RewriteCond %{HTTP_HOST} !^www\.haaniyagraphics\.com$ [NC]
-#301 redirect to www.haaniyagraphics.com
-RewriteRule (.*) http://www.haaniyagraphics.com/$1 [R=301,L]
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
