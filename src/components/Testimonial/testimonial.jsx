@@ -6,8 +6,8 @@ const Testimonial = () => {
     const nameRef = useRef(null);
     const emailRef = useRef(null);
     const messageRef = useRef(null);
-    const [successMessage, setSuccessMessage] = useState('');
-    const [errMessage, setErrMessage] = useState('');
+    //const [successMessage, setSuccessMessage] = useState('');
+   // const [errMessage, setErrMessage] = useState('');
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -16,10 +16,10 @@ const Testimonial = () => {
         .then((result) => {
             console.log(result.text);
             e.target.reset();
-            setSuccessMessage = setSuccessMessage(result.text);
+            //setSuccessMessage = setSuccessMessage(result.text);
         }, (error) => {
             console.log(error.text);
-            setErrMessage = setErrMessage(error.text);
+            //setErrMessage = setErrMessage(error.text);
         });
     };
     return (
@@ -69,7 +69,7 @@ const Testimonial = () => {
 	                                     </div>
 	                                </div>
                                 </form>
-                            <div id="status">{successMessage} {errMessage}</div>
+                            <div id="status"></div>
 
                         </div>
                             
