@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/core": "^7.22.9",
     "@emailjs/browser": "^3.11.0",
     "framer-motion": "^10.8.5",
     "jquery": "^3.7.0",
